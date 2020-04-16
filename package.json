@@ -1,0 +1,25 @@
+{
+  "name": "learn_testcafe",
+  "version": "1.0.0",
+  "description": "Learn TestCafe",
+  "main": "index.js",
+  "scripts": {
+    "test:chrome1": "testcafe chrome ./tests -s takeOnFails=true --disable-page-caching",
+    "test:chrome": "testcafe chrome ./tests -s takeOnFails=true",
+    "test:chrome:headless": "testcafe chrome:headless ./tests -s takeOnFails=true",
+    "test:firefox": "testcafe firefox ./tests -s takeOnFails=true",
+    "test:edge": "testcafe edge ./tests -s takeOnFails=true"
+  },
+  "keywords": [
+    "TestCafe",
+    "Testing",
+    "Automation",
+    "Testing"
+  ],
+  "author": "Nagesh Deshpande",
+  "license": "ISC",
+  "dependencies": {
+    "prettier": "^2.0.4",
+    "testcafe": "^1.8.4"
+  }
+}
