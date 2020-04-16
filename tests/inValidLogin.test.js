@@ -1,7 +1,7 @@
 import { Selector } from 'testcafe'
 
 //prettier-ignore
-fixture`Valid login`
+fixture`Invalid login`
     .page`http://zero.webappsecurity.com/index.html`
 
 test('User Login with Invalid credentials', async t => {
