@@ -1,24 +1,18 @@
 import { Selector } from 'testcafe'
+import Navbar from '../pageObjects/componants/navbar'
+import LoginPage from '../pageObjects/pages/loginPage'
+
+const navbar = new Navbar()
+const loginpage = new LoginPage()
 
 //prettier-ignore
 fixture`Invalid login`
     .page`http://zero.webappsecurity.com/index.html`
 
 test('User Login with Invalid credentials', async t => {
-  const signInButton = Selector('#signin_button')
-  const loginName = Selector('#user_login')
-  const password = Selector('#user_password')
-  const submitButton = Selector('.btn-primary')
-  const loginForm = Selector('#login_form')
-  const alertMessage = Selector('.alert-error')
-
-  await t.click(signInButton)
-  await t.typeText(loginName, 'username1', { paste: true })
-  await t.typeText(password, 'password1', { paste: true })
-  await t.click(submitButton)
-
-  await t.expect(loginForm.exists).ok()
+  await t.click(navbar.signInButton)
+  loginpage.loginToApp('username1', 'password1')
   await t
-    .expect(alertMessage.innerText)
+    .expect(loginpage.alertMessage.innerText)
     .contains('Login and/or password are wrong.')
 })
