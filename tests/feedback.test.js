@@ -7,17 +7,7 @@ const feedback = new Feedback()
 fixture`Feedback Page`
     .page`http://zero.webappsecurity.com/index.html`
 
-test('User submit a feedbac', async t => {
-  // const feedbackLink = Selector('#feedback')
-  // const yourName = Selector('#name')
-  // const yourEmail = Selector('#email')
-  // const yourSubject = Selector('#subject')
-  // const yourComment = Selector('#comment')
-  // const sendMessageButton = Selector('input').withAttribute(
-  //   'value',
-  //   'Send Message'
-  // )
-  // const resposeMessage = Selector('div')
+test('User submit a feedback', async t => {
 
   await t.click(feedback.feedbackLink)
   await t.typeText(feedback.yourName, 'Baban', { paste: true })
