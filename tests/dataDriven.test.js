@@ -9,7 +9,6 @@ fixture`Data Driven Test using TestCafe`
 
 dataSet.forEach(data => {
   test(`Test Search with Data Driven`, async t => {
-    //const searchTextbox = Selector('#searchTerm')
     await t.typeText(navbar.searchTextbox, data.SearchText, {
       paste: true,
       replace: true,
