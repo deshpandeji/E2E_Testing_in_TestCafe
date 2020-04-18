@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<test-results name="TestCafe Tests" total="6" failures="0" date="2020-4-18"    
+              time="12:55:25">
+    <test-suite type="Namespace" name="TestCafe Tests" time="44.84" asserts="0"
+                result="Success" success="True" executed="True">
+        <results>
+                <test-suite type="TestFixture" name="E:\POM_in_TestCafe\tests\feedback.test.js - Feedback Page" time="13.031" asserts="0"     
+                            success="True" result="Success" executed="True">
+                    <results>
+                            <test-case name="&#39;Feedback Page&#39; - User submit a feedback" time="13.031" asserts="0" success="True"       
+                                       executed="True" result="Success">
+                            </test-case>
+                    </results>
+                </test-suite>
+                <test-suite type="TestFixture" name="E:\POM_in_TestCafe\tests\forgottenPassword.js - Forgotten Password" time="4.876" asserts="0"
+                            success="True" result="Success" executed="True">
+                    <results>
+                            <test-case name="&#39;Forgotten Password&#39; - User Request Password to email" time="4.876" asserts="0" success="True"
+                                       executed="True" result="Success">
+                            </test-case>
+                    </results>
+                </test-suite>
+                <test-suite type="TestFixture" name="E:\POM_in_TestCafe\tests\inValidLogin.test.js - Invalid login" time="4.825" asserts="0"  
+                            success="True" result="Success" executed="True">
+                    <results>
+                            <test-case name="&#39;Invalid login&#39; - User Login with Invalid credentials" time="4.825" asserts="0" success="True"
+                                       executed="True" result="Success">
+                            </test-case>
+                    </results>
+                </test-suite>
+                <test-suite type="TestFixture" name="E:\POM_in_TestCafe\tests\newPayee.test.js - New Payee test" time="12.197" asserts="0"    
+                            success="True" result="Success" executed="True">
+                    <results>
+                            <test-case name="&#39;New Payee test&#39; - User Add a new Payee" time="12.197" asserts="0" success="True"        
+                                       executed="True" result="Success">
+                            </test-case>
+                    </results>
+                </test-suite>
+                <test-suite type="TestFixture" name="E:\POM_in_TestCafe\tests\search.test.js - Search Test" time="2.616" asserts="0"
+                            success="True" result="Success" executed="True">
+                    <results>
+                            <test-case name="&#39;Search Test&#39; - User Search online bank" time="2.616" asserts="0" success="True"
+                                       executed="True" result="Success">
+                            </test-case>
+                    </results>
+                </test-suite>
+                <test-suite type="TestFixture" name="E:\POM_in_TestCafe\tests\validLogin.test.js - Valid login" time="7.224" asserts="0"      
+                            success="True" result="Success" executed="True">
+                    <results>
+                            <test-case name="&#39;Valid login&#39; - User Login with valid credentials" time="7.224" asserts="0" success="True"
+                                       executed="True" result="Success">
+                            </test-case>
+                    </results>
+                </test-suite>
+        </results>
+    </test-suite>
+</test-results>

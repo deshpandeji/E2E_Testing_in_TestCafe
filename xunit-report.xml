@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite name="TestCafe Tests: Chrome 80.0.3987.163 / Windows 10" tests="6" failures="0" skipped="0" errors="0" time="45.207" timestamp="Sat, 18 Apr 2020 07:27:43 GMT" >
+  <testcase classname="Feedback Page" name="User submit a feedback" time="12.133">
+  </testcase>
+  <testcase classname="Forgotten Password" name="User Request Password to email" time="5.792">
+  </testcase>
+  <testcase classname="Invalid login" name="User Login with Invalid credentials" time="3.952">
+  </testcase>
+  <testcase classname="New Payee test" name="User Add a new Payee" time="12.597">
+  </testcase>
+  <testcase classname="Search Test" name="User Search online bank" time="3.03">
+  </testcase>
+  <testcase classname="Valid login" name="User Login with valid credentials" time="7.634">
+  </testcase>
+</testsuite>

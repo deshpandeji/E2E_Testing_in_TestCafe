@@ -1,0 +1,103 @@
+{
+  "startTime": "2020-04-18T07:28:45.853Z",
+  "endTime": "2020-04-18T07:29:31.582Z",
+  "userAgents": [
+    "Chrome 80.0.3987.163 / Windows 10"
+  ],
+  "passed": 6,
+  "total": 6,
+  "skipped": 0,
+  "fixtures": [
+    {
+      "name": "Feedback Page",
+      "path": "E:\\POM_in_TestCafe\\tests\\feedback.test.js",
+      "meta": {},
+      "tests": [
+        {
+          "name": "User submit a feedback",
+          "meta": {},
+          "errs": [],
+          "durationMs": 12474,
+          "screenshotPath": null,
+          "skipped": false
+        }
+      ]
+    },
+    {
+      "name": "Forgotten Password",
+      "path": "E:\\POM_in_TestCafe\\tests\\forgottenPassword.js",
+      "meta": {},
+      "tests": [
+        {
+          "name": "User Request Password to email",
+          "meta": {},
+          "errs": [],
+          "durationMs": 4930,
+          "screenshotPath": null,
+          "skipped": false
+        }
+      ]
+    },
+    {
+      "name": "Invalid login",
+      "path": "E:\\POM_in_TestCafe\\tests\\inValidLogin.test.js",
+      "meta": {},
+      "tests": [
+        {
+          "name": "User Login with Invalid credentials",
+          "meta": {},
+          "errs": [],
+          "durationMs": 4428,
+          "screenshotPath": null,
+          "skipped": false
+        }
+      ]
+    },
+    {
+      "name": "New Payee test",
+      "path": "E:\\POM_in_TestCafe\\tests\\newPayee.test.js",
+      "meta": {},
+      "tests": [
+        {
+          "name": "User Add a new Payee",
+          "meta": {},
+          "errs": [],
+          "durationMs": 12270,
+          "screenshotPath": null,
+          "skipped": false
+        }
+      ]
+    },
+    {
+      "name": "Search Test",
+      "path": "E:\\POM_in_TestCafe\\tests\\search.test.js",
+      "meta": {},
+      "tests": [
+        {
+          "name": "User Search online bank",
+          "meta": {},
+          "errs": [],
+          "durationMs": 3147,
+          "screenshotPath": null,
+          "skipped": false
+        }
+      ]
+    },
+    {
+      "name": "Valid login",
+      "path": "E:\\POM_in_TestCafe\\tests\\validLogin.test.js",
+      "meta": {},
+      "tests": [
+        {
+          "name": "User Login with valid credentials",
+          "meta": {},
+          "errs": [],
+          "durationMs": 8393,
+          "screenshotPath": null,
+          "skipped": false
+        }
+      ]
+    }
+  ],
+  "warnings": []
+}
