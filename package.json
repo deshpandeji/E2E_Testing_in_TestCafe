@@ -24,6 +24,7 @@
   "license": "ISC",
   "dependencies": {
     "prettier": "^2.0.4",
+    "read-excel-file": "^4.0.6",
     "testcafe": "^1.8.4",
     "testcafe-reporter-json": "^2.2.0",
     "testcafe-reporter-list": "^2.1.0",
